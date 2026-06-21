@@ -2,6 +2,11 @@
 
 **Run Claude Code 24/7 on your Mac.** A battle-tested framework for autonomous AI operations, built by a non-engineer who runs 26 automated systems with 2 hours of daily oversight.
 
+> 📐 **See [`ARCHITECTURE.md`](ARCHITECTURE.md)** for mermaid diagrams of how this
+> works — the session memory lifecycle (`/onboard` → work → `/handover`), the
+> three memory tiers, and how the as-built repo relates to the full framework
+> described below.
+
 ## What This Is
 
 A complete framework that turns your Mac into an always-on AI workstation. Claude Code runs autonomously on a schedule, picks up tasks from GitHub Issues, manages its own git workflow, monitors its own health, and hands off context between sessions — all without human intervention.
